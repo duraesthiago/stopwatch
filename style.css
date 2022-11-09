@@ -1,37 +1,45 @@
 body {
-background:rgb(0, 0, 0);
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-height:100%;
+  background: rgb(0, 0, 0);
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light',
+    'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  height: 100%;
 }
 
 .wrapper {
-width: 800px;
-margin: 100px auto;
-color:rgb(255, 255, 255);
-text-align:center;
-text-decoration: double;
+  width: 800px;
+  margin: 100px auto;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: double;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 2.6em;
   text-transform: uppercase;
 }
 
-#seconds, #tens{
-  font-size:2em;
+#seconds,
+#tens {
+  font-size: 2em;
 }
 
-button{
-  @include corners (5px);
-  background:rgb(168, 168, 168);
-  color:white;
-  border:solid 1px white;
-  text-decoration:none;
-  cursor:pointer;
-  font-size:1.2em;
-  padding:18px 10px;
-  width:180px;
+button {
+  background: rgb(168, 168, 168, 0.5);
+  color: white;
+  border: solid 1px white;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width: 180px;
   margin: 10px;
+}
+
+button:hover {
+  background: rgba(191, 163, 35, 0.5);
 }
